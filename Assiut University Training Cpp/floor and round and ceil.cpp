@@ -27,4 +27,18 @@ int main() {
 		}
 		cout << "round " << Num1 << " / " << Num2 << " = " << x;
 	}
+	/*Another solve
+	----------------
+	
+	#include <iostream>
+	#include <cmath>
+	
+	double a,b;
+	cin >> a >> b;
+	double x = a/b;
+	
+	cout << "floor " << Num1 << " / " << Num2 << " = " << floaor(x) << endl;
+	cout << "ceil " << Num1 << " / " << Num2 << " = " << ceil(x) << endl;
+	cout << "round " << Num1 << " / " << Num2 << " = " << round(x) << endl;
+	*/
 }
